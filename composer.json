@@ -1,0 +1,23 @@
+{
+    "name": "pura/johnpura-sitepackage",
+    "type": "typo3-cms-extension",
+    "description": "TYPO3 Sitepackage for my website",
+    "homepage": "https://www.johnpura.me",
+    "license": ["GPL-2.0-or-later"],
+    "keywords": ["TYPO3 CMS"],
+    "require": {
+        "typo3/cms-core": "^11.5",
+        "typo3/cms-rte-ckeditor": "^11.5",
+        "typo3/cms-fluid-styled-content": "^11.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pura\\JohnpuraSitepackage\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "johnpura_sitepackage"
+        }
+    }
+}
